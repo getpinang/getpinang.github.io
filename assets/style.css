@@ -32,7 +32,7 @@
 
 @font-face {
 	font-family: FrutigerNextLT;
-	src: url(../fonts/FrutigerNextLT-Regular.otf);
+	src: url(../assets/FrutigerNextLT-Regular.otf);
 }
 
 body {
@@ -404,7 +404,7 @@ nav.scroll {
 	height: 100vh;
 	position: relative;
 	padding: 160px 0 80px;
-	background: url(../images/header/bg.png);
+	background: url(../assets/bg.png);
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: contain;
