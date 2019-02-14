@@ -339,11 +339,16 @@ nav.scroll {
 }
 
 .brand {
-	color: #25c16f !important;
-	font-weight: bold;
-	font-size: 25px;
-	letter-spacing: 1px;
-	font-family: 'poppins', sans-serif !important;
+	/* color: #25c16f !important; */
+	/* font-weight: bold;
+	font-size: 25px; */
+	/* letter-spacing: 1px; */
+	position: relative;
+	background: url(../assets/pinang-logo.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	/* font-family: 'poppins', sans-serif !important; */
 }
 
 .navbar-nav li {
