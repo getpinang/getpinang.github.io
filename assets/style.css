@@ -31,8 +31,10 @@
 /*=== 1.BASIC ============================*/
 
 @font-face {
-	font-family: FrutigerNextLT;
-	src: url(../assets/FrutigerNextLT-Regular.otf);
+	font-family: Neris-Light;
+	src: url(../assets/Neris-Light.otf);
+	font-family: Avenir;
+	src: url(../assets/Avenir.otf);
 }
 
 body {
@@ -54,7 +56,7 @@ a,
 li,
 span,
 div {
-	font-family: "FrutigerNextLT", sans-serif !important;
+	font-family: "Neris-Light", sans-serif !important;
 	letter-spacing: 1px;
 }
 
@@ -117,7 +119,7 @@ a {
 }
 
 .section .head-contain h2 {
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 }
 
 .main-section-head {
@@ -348,7 +350,7 @@ nav.scroll {
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* font-family: 'poppins', sans-serif !important; */
+	/* font-family: 'Avenir', sans-serif !important; */
 }
 
 .navbar-nav li {
@@ -439,7 +441,7 @@ nav.scroll {
 	font-weight: bold;
 	margin-bottom: 30px;
 	line-height: 1.2 !important;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 	font-weight: 700;
 }
 
@@ -898,7 +900,7 @@ nav.scroll {
 	font-size: 32px;
 	letter-spacing: 1px;
 	line-height: 1.2 !important;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 }
 
 .free-trial p {
@@ -1592,12 +1594,12 @@ nav.scroll {
 	font-weight: 900;
 	margin-bottom: 15px;
 	letter-spacing: -3px;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 }
 
 .price .price-body .item .pricing-head h2 .money {
 	font-size: 60px !important;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 	display: inline-block !important;
 	font-weight: 900 !important;
 	line-height: 1.3 !important;
@@ -1961,7 +1963,7 @@ nav.scroll {
 
 .contact .details .item .card .info ul li span {
 	font-size: 14px;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 }
 
 .contact .details .item .card .info ul li span.name {
@@ -1970,13 +1972,13 @@ nav.scroll {
 	font-size: 14px;
 	font-weight: bold;
 	color: #284254;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 }
 
 .contact .details .item .card .info ul li span.num {
 	font-size: 14px;
 	color: #4e5f83;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Avenir", sans-serif !important;
 }
 
 .contact .contact-form form .input-group input {
@@ -1987,7 +1989,7 @@ nav.scroll {
 	font-size: 14px;
 	outline: none;
 	color: #4e5f83;
-	font-family: "Poppins", sans-serif;
+	font-family: "Avenir", sans-serif;
 	font-weight: lighter;
 	/* transition */
 	-webkit-transition: all 0.3s ease;
@@ -2027,7 +2029,7 @@ nav.scroll {
 	outline: none;
 	color: #4e5f83;
 	resize: none;
-	font-family: "Poppins", sans-serif;
+	font-family: "Avenir", sans-serif;
 	font-weight: lighter;
 	/* transition */
 	-webkit-transition: all 0.3s ease;
@@ -2151,7 +2153,7 @@ footer .top h3 {
 	font-weight: bold;
 	font-size: 25px;
 	letter-spacing: 1px;
-	font-family: 'poppins', sans-serif !important;
+	font-family: 'Avenir', sans-serif !important;
 }
 
 footer .top ul {
