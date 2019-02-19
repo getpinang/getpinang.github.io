@@ -413,7 +413,7 @@ nav.scroll {
 	height: 100vh;
 	position: relative;
 	padding: 160px 0 80px;
-	background: url(../assets/bg.png);
+	background: url(../assets/header.png);
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: contain;
