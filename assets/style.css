@@ -33,6 +33,9 @@
 @font-face {
 	font-family: Neris-Light;
 	src: url(../assets/Neris-Light.otf);
+}
+
+@font-face {
 	font-family: Avenir;
 	src: url(../assets/Avenir.otf);
 }
@@ -416,7 +419,7 @@ nav.scroll {
 	background: url(../assets/header.png);
 	background-position: right top;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	/* Display */
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -438,7 +441,7 @@ nav.scroll {
 }
 
 .header .header-contain .text-contain h1 {
-	font-size: 56px;
+	font-size: 36px;
 	color: #268f44;
 	font-weight: bold;
 	margin-bottom: 30px;
@@ -557,16 +560,60 @@ nav.scroll {
 
 /* M.D */
 
+@media (min-width: 1050px) and (max-width: 1400px) {
+	.header .left-section {
+		max-width: 28.5%;
+	}
+
+	.header .container {
+		margin-top: -140px;
+	}
+
+	.header .header-contain .text-contain h1 {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1050px) {
+	.header .left-section {
+		max-width: 22%;
+	}
+	.header .container {
+		margin-top: -160px;
+	}
+	.header .header-contain .text-contain h1 {
+		font-size: 20px;
+	}
+	.header .header-contain .text-contain p {
+		font-size: 14px;
+		-webkit-box-pack: left;
+		-ms-flex-pack: left;
+		justify-content: left;
+		text-align: left;
+	}
+}
+
 @media (min-width: 1400px) and (min-height: 1050px) {
 	.header {
 		height: auto;
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 576px) {
 	.header {
-		background: none;
+		height: auto;
+		margin-top: 90px;
+		/* background: url(../assets/pinang-mobile-header.png);
+		background-position: right top;
+		background-repeat: no-repeat; */
+		background-size: contain;
 		text-align: center;
+	}
+	.header .container {
+		margin-top: -140px;
+	}
+	.header .header-contain {
+		max-width: 28.5%;
 	}
 
 	.header .col-6 {
@@ -578,18 +625,79 @@ nav.scroll {
 		flex: 100% !important;
 	}
 
+	.header .header-contain .text-contain h1 {
+		font-size: 24px;
+		-webkit-box-pack: left;
+		-ms-flex-pack: left;
+		justify-content: left;
+		text-align: left;
+	}
+
+	.header .header-contain .text-contain p {
+		font-size: 18px;
+		-webkit-box-pack: left;
+		-ms-flex-pack: left;
+		justify-content: left;
+		text-align: left;
+	}
+
 	.header .header-contain .text-contain .social {
+		text-align: left;
+		-webkit-box-pack: left;
+		-ms-flex-pack: left;
+		justify-content: left;
+	}
+	.header .header-contain .text-contain .container-fluid .row {
+		font-size: 12px;
+		text-align: left;
+		-webkit-box-pack: left;
+		-ms-flex-pack: left;
+		justify-content: left;
+	}
+
+}
+
+/* @media (max-width: 1024px) and (min-width: 576px) {
+	.header .header-contain {
+		height: auto;
+		margin-top: 20%;
+	}
+} */
+
+@media (max-width: 576px) and (min-width: 360px) {
+	.header {
+		height: auto;
+		margin-top: 90px;
+		background: url(../assets/pinang-mobile-header.png);
+		background-position: right top;
+		background-repeat: no-repeat;
+		background-size: contain;
 		text-align: center;
+	}
+
+	.header .container {
+		margin-top: 400px;
+	}
+
+	.header .header-contain .row {
+		justify-content: center;
+	}
+
+	.header .header-contain .text-contain h1 {
+		font-size: 32px;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
+		text-align: center;
 	}
-}
 
-@media (max-width: 576px) {
-	.header .header-contain .text-contain h1 {
-		font-size: 45px;
+	.header .header-contain .text-contain p {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		text-align: center;
 	}
+
 
 	.header .header-contain .text-contain .social .icon-c {
 		height: auto;
@@ -600,6 +708,26 @@ nav.scroll {
 
 	#Header>div.container>div>div>div>div>div:nth-child(3) {
 		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 360px) {
+	.header {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.header .container {
+		margin-top: 200px;
+	}
+	.header .left-section {
+		max-width: 100%;
+	}
+	.header .header-contain {
+		margin: 0 auto 20px;
+	}
+	.header .header-contain .text-contain h1 {
+		min-width: 300px;
 	}
 }
 
