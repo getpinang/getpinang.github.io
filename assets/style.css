@@ -711,10 +711,28 @@ nav.scroll {
 	}
 }
 
+@media (max-width: 448px) {
+	.header .container {
+		margin-top: 240px;
+	}
+	.header .left-section {
+		max-width: 100%;
+	}
+	.header .header-contain {
+		margin: 20;
+	}
+	.header .header-contain .text-contain {
+		min-width: 300px;
+	}
+}
+
 @media (max-width: 360px) {
 	.header {
 		padding-bottom: 0;
 		margin-bottom: 0;
+	}
+	.header .left-section {
+		max-width: 100%;
 	}
 
 	.header .container {
