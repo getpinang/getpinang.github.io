@@ -351,7 +351,7 @@ nav.scroll {
 	font-size: 25px; */
 	/* letter-spacing: 1px; */
 	position: relative;
-	background: url(../assets/pinang-logo.png);
+	background: url(../assets/pinang-logo.svg);
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: contain;
