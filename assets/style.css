@@ -651,9 +651,13 @@ nav.scroll {
 }
 
 @media (max-width: 576px) and (min-width: 360px) {
+	.navbar {
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+	}
 	.header {
 		height: auto;
-		margin-top: 90px;
+		margin-top: 50px;
 		background: url(../assets/pinang-mobile-header.png);
 		background-position: right top;
 		background-repeat: no-repeat;
@@ -664,7 +668,6 @@ nav.scroll {
 	.header .container {
 		margin-top: 400px;
 	}
-
 	.header .header-contain .row {
 		justify-content: center;
 	}
@@ -683,7 +686,6 @@ nav.scroll {
 		justify-content: center;
 		text-align: center;
 	}
-
 
 	.header .header-contain .text-contain .social .icon-c {
 		height: auto;
@@ -714,13 +716,12 @@ nav.scroll {
 
 @media (max-width: 360px) {
 	.navbar {
-		padding-bottom: 0;
-		margin-bottom: 0;
+		padding-top: 0.1rem;
+		padding-bottom: 0.1rem;
 	}
 	.header .left-section {
 		max-width: 100%;
 	}
-
 	.header .container {
 		margin-top: 200px;
 	}
