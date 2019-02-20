@@ -345,17 +345,8 @@ nav.scroll {
 	padding-bottom: 20px;
 }
 
-.brand {
-	/* color: #25c16f !important; */
-	/* font-weight: bold;
-	font-size: 25px; */
-	/* letter-spacing: 1px; */
-	position: relative;
-	background: url(../assets/pinang-logo.png);
-	background-position: right top;
-	background-repeat: no-repeat;
-	background-size: contain;
-	/* font-family: 'Avenir', sans-serif !important; */
+.navbar img {
+	height: 48px;
 }
 
 .navbar-nav li {
@@ -562,11 +553,11 @@ nav.scroll {
 
 @media (min-width: 1050px) and (max-width: 1400px) {
 	.header .left-section {
-		max-width: 28.5%;
+		max-width: 32.5%;
 	}
 
 	.header .container {
-		margin-top: -140px;
+		margin-top: -60px;
 	}
 
 	.header .header-contain .text-contain h1 {
@@ -600,20 +591,22 @@ nav.scroll {
 }
 
 @media (max-width: 1024px) and (min-width: 576px) {
+	.navbar {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
 	.header {
 		height: auto;
-		margin-top: 90px;
-		/* background: url(../assets/pinang-mobile-header.png);
-		background-position: right top;
-		background-repeat: no-repeat; */
+		margin-top: 48px;
 		background-size: contain;
 		text-align: center;
 	}
 	.header .container {
-		margin-top: -140px;
+		margin-top: -60px;
 	}
 	.header .header-contain {
-		max-width: 28.5%;
+		max-width: 32.5%;
 	}
 
 	.header .col-6 {
@@ -656,13 +649,6 @@ nav.scroll {
 	}
 
 }
-
-/* @media (max-width: 1024px) and (min-width: 576px) {
-	.header .header-contain {
-		height: auto;
-		margin-top: 20%;
-	}
-} */
 
 @media (max-width: 576px) and (min-width: 360px) {
 	.header {
