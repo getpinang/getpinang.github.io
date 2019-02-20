@@ -713,7 +713,7 @@ nav.scroll {
 }
 
 @media (max-width: 360px) {
-	.header {
+	.navbar {
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
