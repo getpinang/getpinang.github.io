@@ -719,6 +719,10 @@ nav.scroll {
 		padding-top: 0.1rem;
 		padding-bottom: 0.1rem;
 	}
+	.header {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
 	.header .left-section {
 		max-width: 100%;
 	}
