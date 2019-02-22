@@ -347,7 +347,7 @@ nav.scroll {
 
 
 .navbar img {
-	height: 48px;
+	height: 60px;
 }
 
 .navbar-nav li {
@@ -553,20 +553,21 @@ nav.scroll {
 /* M.D */
 
 @media (min-width: 1050px) and (max-width: 1400px) {
+	.navbar img {
+		height: 48px;
+	}
 	.header .left-section {
 		max-width: 32.5%;
 	}
-
 	.header .container {
 		margin-top: -60px;
 	}
-
-	.header .header-contain .text-contain h1 {
-		font-size: 24px;
-	}
 }
 
-@media (min-width: 1024px) and (max-width: 1050px) {
+@media (min-width: 1024px) and (max-width: 1050px) {	
+	.navbar img {
+		height: 48px;
+	}
 	.header .left-section {
 		max-width: 22%;
 	}
