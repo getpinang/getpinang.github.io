@@ -1872,6 +1872,11 @@ nav.scroll {
 	line-height: 25px !important;
 }
 
+.faq-ads {
+	
+	margin-right:10px;
+}
+
 /* M.D */
 @media (max-width: 576px) {
 	.faq .head-contain {
